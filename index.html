@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Xusheng Zhang</title>
+  <meta name="description" content="Xusheng Zhang — Postdoctoral Research Associate in theoretical computer science at Durham University.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="site-title" href="index.html">Xusheng Zhang</a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="service.html">Service</a></li>
+        <li><a href="cv.html">CV</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+
+    <!-- ===================== Profile ===================== -->
+    <section class="profile">
+      <!-- Put your photo at images/profile.jpg (square, ~520×520px). The placeholder shows until then. -->
+      <img class="profile-photo" src="images/profile.jpg" alt="Photo of Xusheng Zhang"
+           onerror="this.onerror=null;this.src='images/profile-placeholder.svg';">
+      <div>
+        <h1>Xusheng Zhang</h1>
+        <p class="role">Postdoctoral Research Associate</p>
+        <p class="affil">Department of Computer Science, <a href="https://www.durham.ac.uk/">Durham University</a></p>
+
+        <ul class="contact">
+          <!-- Email is obfuscated: the full address never appears in the HTML.
+               A small script assembles it in the browser; without JavaScript
+               visitors see the "[at]/[dot]" form. -->
+          <li><span class="label">Email</span>
+            <span class="email" data-u="gnahz.gnehsux" data-d="ku.ca.mahrud">xusheng.zhang [at] durham [dot] ac [dot] uk</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== Bio ===================== -->
+    <section class="bio" aria-labelledby="about">
+      <h2 id="about">About</h2>
+      <p>
+        I am a Postdoctoral Research Associate at Durham University, working with
+        <a href="https://sites.google.com/view/peterdavies">Peter Davies-Peck</a>.
+        Previously, I was a Senior Research Associate in the Department of Computer Science at the
+        University of Oxford, working with
+        <a href="https://www.cs.ox.ac.uk/people/leslieann.goldberg/">Leslie Ann Goldberg</a>.
+        I received my PhD from <a href="https://www.psu.edu/">Penn State</a> in 2024, where I was advised by
+        <a href="http://www.cse.psu.edu/~azb1015/">Antonio Blanca</a>.
+        Before graduate school, I built cloud products at Amazon Web Services.
+      </p>
+    </section>
+
+    <!-- ===================== News =====================
+         Newest first. Copy one <li> block per item; <time> can be "2026" or "Oct 2026". -->
+    <section aria-labelledby="news">
+      <h2 id="news">News <span class="h2-aside">(places you might have run into me)</span></h2>
+      <ul class="news">
+        <li>
+          <time datetime="2026-10">Oct 2026</time>
+          <span>Invited talk at the Durham Probability Seminar.</span>
+        </li>
+        <li>
+          <time datetime="2026-06-30">Jun 2026</time>
+          <span>Contributed talk at <a href="https://sites.google.com/view/fox-sheffield-2026">Randomness in Computing</a>, University of Sheffield.</span>
+        </li>
+        <li>
+          <time datetime="2026-06-20">Jun 2026</time>
+          <span>Attended <a href="https://www.cs.ox.ac.uk/standa.zivny/goldbergfest.html">GoldbergFest 2026</a> in Oxford, celebrating Leslie Ann Goldberg's 60th birthday.</span>
+        </li>
+        <li>
+          <time datetime="2026-06-09">Jun 2026</time>
+          <span>Attended <a href="https://sirocco2026.webspace.durham.ac.uk/">SIROCCO 2026</a> in Durham.</span>
+        </li>
+        <li>
+          <time datetime="2026-05">May 2026</time>
+          <span>Presented our paper on mixing matrix design for energy-efficient decentralized federated learning at IEEE INFOCOM 2026 in Tokyo.</span>
+        </li>
+        <li>
+          <time datetime="2026-02">Feb 2026</time>
+          <span>Contributed talk at the Common NESTiD + Business School workshop, Durham.</span>
+        </li>
+        <li>
+          <time datetime="2025-10">Oct 2025</time>
+          <span>Joined Durham University as a Postdoctoral Research Associate, working with Peter Davies-Peck.</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ===================== Research =====================
+         One main theme branching into three areas. Each box links to the
+         Publications page filtered to that topic. -->
+    <section aria-labelledby="research">
+      <h2 id="research">Research</h2>
+      <p class="research-intro">
+        My research lies at the intersection of theoretical computer science, probability theory, and
+        statistical physics. I am especially interested in sampling via Markov chains, distributed and
+        decentralized algorithms, and stochastic processes on networks. I also enjoy mathematical and
+        algorithmic puzzles.
+      </p>
+      <div class="rtree">
+        <div class="rtree-root">Randomized computation on graphs</div>
+        <div class="rtree-branches">
+          <a class="rtree-branch" href="publications.html#markov">
+            <span class="rtree-title">Markov chains for statistical physics</span>
+            <ul class="rtree-sub"><li>Mixing time of Markov chains</li><li>Random-cluster model</li><li>Spectral independence</li></ul>
+          </a>
+          <a class="rtree-branch" href="publications.html#distributed">
+            <span class="rtree-title">Distributed algorithms</span>
+            <ul class="rtree-sub"><li>LOCAL model</li><li>Lov&aacute;sz Local Lemma</li><li>Decentralized learning</li></ul>
+          </a>
+          <a class="rtree-branch" href="publications.html#other">
+            <span class="rtree-title">Learning algorithms</span>
+            <ul class="rtree-sub"><li>One-shot learning</li><li>Graphical models</li></ul>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== Selected publications ===================== -->
+    <section aria-labelledby="selected">
+      <h2 id="selected">Selected Publications</h2>
+      <ol class="pubs selected">
+        <li>
+          <div>
+            <div class="pub-title">Uniqueness and Mixing in the Low-Temperature Random-Cluster Model on Trees and Random Graphs</div>
+            <div class="pub-authors">with Antonio Blanca, Reza Gheissari, and Heehyun Park</div>
+            <div class="pub-venue">SODA 2027</div>
+            <div class="pub-links"><a href="https://arxiv.org/abs/2604.20693">arXiv</a></div>
+          </div>
+        </li>
+        <li>
+          <div>
+            <div class="pub-title">Triangle-Free Coloring in LOCAL via Resilient Lovász Local Lemma</div>
+            <div class="pub-authors">with Peter Davies-Peck</div>
+            <div class="pub-venue">DISC 2026</div>
+            <div class="pub-links"><a href="https://arxiv.org/abs/2608.13357">arXiv</a></div>
+          </div>
+        </li>
+        <li>
+          <div>
+            <div class="pub-title">Mixing Matrix Design for Energy-efficient Decentralized Federated Learning</div>
+            <div class="pub-authors">with Tuan Nguyen and Ting He</div>
+            <div class="pub-venue">IEEE INFOCOM 2026</div>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2512.24069">arXiv</a>
+              <a href="https://ieeexplore.ieee.org/abstract/document/11571245">INFOCOM</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div>
+            <div class="pub-title">One-Shot Learning for <i>k</i>-SAT</div>
+            <div class="pub-authors">with Andreas Galanis and Leslie Ann Goldberg</div>
+            <div class="pub-venue">
+              <em>Information and Computation</em>, 2025 &middot; Extended abstract in ICALP 2025
+            </div>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2502.07135">arXiv</a>
+              <a href="https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2025.84">ICALP</a>
+              <a href="https://www.sciencedirect.com/science/article/pii/S089054012500121X">Journal</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div>
+            <div class="pub-title">Mean-field Potts and Random-Cluster Dynamics from High-Entropy Initializations</div>
+            <div class="pub-authors">with Antonio Blanca and Reza Gheissari</div>
+            <div class="pub-venue">
+              <em>Annals of Applied Probability</em>, 2026 &middot; Extended abstract in SODA 2025
+            </div>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2404.13014">arXiv</a>
+              <a href="https://epubs.siam.org/doi/10.1137/1.9781611978322.185">SODA</a>
+              <a href="https://projecteuclid.org/journals/annals-of-applied-probability/volume-36/issue-1/Mean-field-Potts-and-random-cluster-dynamics-from-high-entropy/10.1214/25-AAP2235.short">Journal</a>
+            </div>
+          </div>
+        </li>
+      </ol>
+      <p class="more"><a href="publications.html">All publications &rarr;</a></p>
+    </section>
+
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>&copy; 2026 Xusheng Zhang</span>
+    <span>Last updated: October 2026</span>
+  </div>
+</footer>
+<script>
+  // Assemble the obfuscated email address client-side.
+  document.querySelectorAll('.email').forEach(function (el) {
+    var rev = function (s) { return s.split('').reverse().join(''); };
+    var addr = rev(el.dataset.u) + '@' + rev(el.dataset.d);
+    var a = document.createElement('a');
+    a.href = 'mail' + 'to:' + addr;
+    a.textContent = addr;
+    el.replaceChildren(a);
+  });
+</script>
+</body>
+</html>
