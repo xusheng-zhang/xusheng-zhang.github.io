@@ -335,3 +335,6 @@ ol.pubs.selected > li { grid-template-columns: 1fr; padding: 14px 0; }
   .rtree-branch::before { left: -17px; top: 18px; height: 0; width: 16px; border-left: 0; border-top: 2px solid var(--tree); }
   .rtree-branch:last-child::after { content: ""; position: absolute; left: -21px; top: 20px; bottom: -2px; width: 6px; background: var(--bg); }
 }
+
+/* keep superscripts from stretching line height */
+sup { line-height: 0; }

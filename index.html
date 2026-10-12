@@ -46,7 +46,7 @@
                A small script assembles it in the browser; without JavaScript
                visitors see the "[at]/[dot]" form. -->
           <li><span class="label">Email</span>
-            <span class="email" data-u="gnahz.gnehsux" data-d="ku.ca.mahrud">xusheng.zhang [at] durham [dot] ac [dot] uk</span>
+            <span class="email" data-u="gnahz.gnehsux" data-d="ku.ca.mahrud">xusheng.zhang [at] durham.ac.uk</span>
           </li>
         </ul>
       </div>
@@ -74,7 +74,7 @@
       <ul class="news">
         <li>
           <time datetime="2026-10">Oct 2026</time>
-          <span>Invited talk at the Durham Probability Seminar.</span>
+          <span>Invited talk at the <a href="https://www.maths.dur.ac.uk/seminars/pastseminars.html">Durham Probability Seminar</a>.</span>
         </li>
         <li>
           <time datetime="2026-06-30">Jun 2026</time>
@@ -86,15 +86,15 @@
         </li>
         <li>
           <time datetime="2026-06-09">Jun 2026</time>
-          <span>Attended <a href="https://sirocco2026.webspace.durham.ac.uk/">SIROCCO 2026</a> in Durham.</span>
+          <span>Volunteered at <a href="https://sirocco2026.webspace.durham.ac.uk/">SIROCCO 2026</a> in Durham.</span>
         </li>
         <li>
           <time datetime="2026-05">May 2026</time>
-          <span>Presented our paper on mixing matrix design for energy-efficient decentralized federated learning at IEEE INFOCOM 2026 in Tokyo.</span>
+          <span>Presented <a href="https://ieeexplore.ieee.org/abstract/document/11571245">our paper on mixing matrix design for energy-efficient decentralized federated learning</a> at IEEE INFOCOM 2026 in Tokyo, and attended the N<sup>2</sup> Women event there.</span>
         </li>
         <li>
           <time datetime="2026-02">Feb 2026</time>
-          <span>Contributed talk at the Common NESTiD + Business School workshop, Durham.</span>
+          <span>Contributed talk at the <a href="https://nestid.webspace.durham.ac.uk/nestid-seminar-2025-26/">Joint NESTiD &ndash; Business School workshop</a>, Durham.</span>
         </li>
         <li>
           <time datetime="2025-10">Oct 2025</time>
@@ -213,7 +213,7 @@
     var addr = rev(el.dataset.u) + '@' + rev(el.dataset.d);
     var a = document.createElement('a');
     a.href = 'mail' + 'to:' + addr;
-    a.textContent = addr;
+    a.textContent = rev(el.dataset.u) + ' [at] ' + rev(el.dataset.d);  // shown obfuscated; the link itself works
     el.replaceChildren(a);
   });
 </script>
